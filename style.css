@@ -18,7 +18,13 @@
     margin-right: auto;
 }
 
-
+.creatorinfo {
+    position: absolute;
+    top: 10%;
+    background-color: #630000;
+    color: #edebdd;
+    border: 20px solid #630000;
+    }
 
 
 body {
