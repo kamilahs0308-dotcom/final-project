@@ -60,10 +60,10 @@
     position: absolute   
 }
 
-.main a {
+.head a {
     font-size:26px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #810100;
+    color: #edebdd;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -79,8 +79,8 @@
 
 }
 
-.main a:hover {
-    background-color: #630000;
+.head a:hover {
+    background-color: #810100;
 }
 
 body {
@@ -88,5 +88,14 @@ body {
 }
 
 .head {
-  
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background: #630000;
+    border: 2px solid #630000;
+    padding: 15px;
+}
+
+.head-text {
+
 }
