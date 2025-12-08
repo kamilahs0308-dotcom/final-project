@@ -64,9 +64,6 @@
     font-size:26px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #edebdd;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     padding: 8px 16px;
     border-radius: 5px;
     border: none;
@@ -75,12 +72,13 @@
    width: fit-content;
    text-decoration: none;
    padding: 1%;
-
-
+   align-items: center;
+   width: fit-content;
 }
 
 .head a:hover {
     background-color: #810100;
+    text-decoration: underline;
 }
 
 body {
@@ -94,6 +92,10 @@ body {
     background: #630000;
     border: 2px solid #630000;
     padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .head-text {
