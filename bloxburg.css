@@ -6,3 +6,12 @@
     width: 600px;
     height: auto;
 }
+.what {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #020764;
+    color: #c6dceb;
+
+}
