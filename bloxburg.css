@@ -7,11 +7,84 @@
     height: auto;
 }
 .what {
-    width: 200px;
+    width: 400px;
     height: 200px;
-    border: 2px solid black;
-    padding: 20px;
+    border: 2px #020764;
+    padding: 30px;
     background-color: #020764;
     color: #c6dceb;
+    margin-left: 60px;
+   transition: 0.3s ease-in-out;
+}
 
+.what:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.what li {
+    font-size: 20px;
+    padding: 2px;
+}
+
+.why {
+    width: 400px;
+    height: 200px;
+    border: 2px #020764;
+    padding:30px;
+    background-color: #020764;
+    color: #c6dceb;
+    margin-left: 60px;
+   transition: 0.3s ease-in-out;
+   margin-top: 7%;
+}
+
+.why:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.why li{
+    font-size: 20px;
+    padding: 2px;
+}
+
+.more {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    width: 400px;
+    height: 200px;
+    border: 2px #020764;
+    padding:30px;
+    background-color: #020764;
+    color: #c6dceb;
+    transition: 0.3s ease-in-out;
+    transform: translate(-50%, -50%);
+}
+
+.more:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.more li {
+    font-size: 20px;
+    padding: 1px;
+}
+
+.collage {
+    display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  gap: 10px;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+
+.photo {
+ width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
